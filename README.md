@@ -1,6 +1,5 @@
 # 🏦 Simple Banking App
-
-![App Banner](https://via.placeholder.com/1200x400/414A61/FFFFFF?text=Simple+Banking+App)  
+ 
 *A secure mobile banking application for managing accounts and transactions*
 
 ## 🧩 Modules
