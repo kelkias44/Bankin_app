@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit
 object ApiClient {
     @Volatile
     private var retrofit: Retrofit? = null
-    private const val BASE_URL = "https://challenge-api.qena.dev/"
+    private const val BASE_URL = ""
 
     fun getRetrofitInstance(context: Context): Retrofit {
         return retrofit ?: synchronized(this) {
