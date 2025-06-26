@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.simplebankingapp.presentation.fragments.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_accounts"
+        android:name="com.example.simplebankingapp.presentation.fragments.account.AccountFragment"
+        android:label="Accounts"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/nav_transactions"
+        android:name="com.example.simplebankingapp.presentation.fragments.transaction.TransactionFragment"
+        android:label="Transactions"
+        tools:layout="@layout/fragment_transaction" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.simplebankingapp.presentation.fragments.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

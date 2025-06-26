@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <!-- Wrap the shape in an <inset> tag to add transparent padding around it -->
+        <inset android:insetLeft="8dp"
+            android:insetRight="8dp"
+            android:insetTop="8dp"
+            android:insetBottom="8dp">
+        <shape android:shape="oval">
+            <!-- Light blueish-purple color for the selected indicator, matching the image -->
+            <solid android:color="#AABBED" />
+            <size android:width="14dp" android:height="14dp" />
+        </shape>
+    </inset>
+    </item>
+<item android:state_selected="false">
+<inset
+    android:insetLeft="8dp"
+    android:insetRight="8dp"
+    android:insetTop="8dp"
+    android:insetBottom="8dp">
+    <shape android:shape="oval">
+        <!-- Darker gray color for the unselected indicators, matching the image -->
+        <solid android:color="#808080" />
+        <size android:width="14dp" android:height="14dp" />
+    </shape>
+</inset>
+</item>
+</selector>
