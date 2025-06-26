@@ -1,6 +1,6 @@
 # 🏦 Simple Banking App
  
-*A secure mobile banking application for managing accounts and transactions*
+*A Mobile banking application for managing accounts and transactions*
 
 ## 🧩 Modules
 
