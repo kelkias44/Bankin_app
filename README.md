@@ -22,6 +22,7 @@
 
 ## Architecture 
 
+```text
 com.example.simplebankingapp/
 ├── data/
 │   ├── model/          
@@ -35,17 +36,18 @@ com.example.simplebankingapp/
     ├── activities/     
     ├── fragments/      
     └── adapters/
+```
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kelkias44/Bankin_app.git```
+   git clone https://github.com/kelkias44/Bankin_app.git 
 2. Navigate to the project directory:
    ```bash
-   cd Bankin_app```
+   cd Bankin_app
 3. Add the BASE_URL in the com/example/simplebankingapp/utils/ folder    
 4. Build your app
    ```bash
-   ./gradlew build```
+   ./gradlew build
 5. Run the app
